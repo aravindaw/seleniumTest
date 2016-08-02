@@ -8,7 +8,9 @@ public class App
 {
     public static void main( String[] args )
     {
-        SelectDropDownMenu selectDropDownMenu = new SelectDropDownMenu();
-        selectDropDownMenu.selectDDM();
+        DropDownTest dropDownTest = new DropDownTest();
+        dropDownTest.openBrowser();
+        dropDownTest.selectDropDdownMenu();
+        dropDownTest.closeTheDrive();
     }
 }
